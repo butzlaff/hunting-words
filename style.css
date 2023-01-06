@@ -1,0 +1,84 @@
+header{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+main{
+  text-align: center;
+}
+
+.game{
+  background-color: rgb(93, 146, 123);
+  display: inline-block;
+  height: 550px;
+  padding-top: 20px;
+  border-radius: 2%;
+  padding: 20px;
+}
+
+.matriz{
+  background-color: aliceblue;
+  /* height: 80%; */
+  width: 400px;
+  margin: 0 auto;
+  border: 3px solid black;
+
+}
+
+.line{
+  max-height: 40px;
+}
+
+.cell{
+  border: solid black 1px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px 0px;
+  cursor:pointer;
+}
+
+.selected {
+  background-color: rgb(255, 255, 160);
+}
+ul{
+  color: white;
+  display: inline-block;
+  width: 50%;
+  text-align:left;
+  padding: 0;
+}
+
+.found {
+  background-color: rgb(86, 251, 64);
+}
+
+.btns{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.btn-clear, .btn-restart{
+  display: inline-block;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  vertical-align: top;
+  margin-top: 20px;
+  cursor:pointer;
+}
+
+.liFound {
+  text-decoration: line-through;
+  color: lawngreen;
+}
